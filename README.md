@@ -11,7 +11,7 @@ Most of the notes are from [Talk on going mouseless with Vim, Tmux, and Hotkeys]
 |Normal Mode | ```Esc``` |
 | Insert Mode | i, a, c |
 | Visual Mode | v, V, ```<Ctrl-v>``` |
-| Command-line Mode | : , / |
+| Command-line Mode | :, / |
 
  Think **operators, text objects,** and **motions**
 
