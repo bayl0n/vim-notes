@@ -1,6 +1,6 @@
 # Vim Notes
 
-Most of the notes are from **Talk on going mouseless with Vim, Tmux, and Hotkeys**
+Most of the notes are from [Talk on going mouseless with Vim, Tmux, and Hotkeys](https://www.youtube.com/watch?v=E-ZbrtoSuzw)
 
 ## Vim: modal editor
 
@@ -105,21 +105,12 @@ As well as `zt`, `zz`, `zb` -- Put current cursor to top, middle, or bottom of s
 
 **Four basic commands**
 
->**:e**[dit] [++opt] [+cmd] {file}
-
-Finds a file based on the current working directory
-
->**:fin**[d][!] [++opt] [+cmd] {file}
-
-File indexing
-
->gf
-
-Go to file
-
->Ctrl-^
-
-Switch buffers
+| Keys | Definition |
+| --- | --- |
+| **:e**[dit] [++opt] [+cmd] {file} | Finds a file based on the current working directory |
+| **:fin**[d][!] [++opt] [+cmd] {file} | File indexing |
+| gf | Go to file |
+| Ctrl-^ | Switch buffers |
 
 ### Searches
 
@@ -132,7 +123,7 @@ Switch buffers
 | `?{patt}[?]<CR>` | search back for {patt} |
 | `?<CR>` | search back for last used pattern |
 | `[count]n` | repeat last search [count] times |
-| `[countN` | same as above, opposite directon |
+| `[count]N` | same as above, opposite directon |
 | `*` | search forward for word under cursor |
 | `#` | same as above, opposite direction |
 | `gd` | go to local declaration |
